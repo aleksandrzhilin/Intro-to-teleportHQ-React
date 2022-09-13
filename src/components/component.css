@@ -1,0 +1,60 @@
+.component-container {
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-700);
+  border-style: solid;
+  border-width: 1px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: center;
+}
+.component-container1 {
+  width: 200px;
+  display: flex;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+}
+.component-image {
+  width: 100%;
+  object-fit: cover;
+}
+.component-container2 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.component-text1 {
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+
+
+
+@media(max-width: 767px) {
+  .component-image {
+    height: 91px;
+  }
+  .component-container2 {
+    align-self: flex-start;
+  }
+  .component-text {
+    align-self: stretch;
+  }
+  .component-text1 {
+    align-self: flex-end;
+  }
+}
